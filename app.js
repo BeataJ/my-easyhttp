@@ -11,7 +11,7 @@ const http = new easyHTTP;
 // });
 
 // GET Single Post
-http.get('https://jsonplaceholder.typicode.com/posts/20', (err, post) => {
+http.get('https://jsonplaceholder.typicode.com/posts/2', (err, post) => {
   if(err) {
     console.log(err)
   } else {
